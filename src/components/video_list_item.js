@@ -1,7 +1,14 @@
 import React from 'react';
 
-const VideoListItem = (props) => {
-    return <li>Video</li>;
+const VideoListItem = ({video}) => {
+    return (
+        <li>
+            <div>
+                <img src={video.snippet.thumbnails.default.url} />
+                <div>{video.snippet.title}</div>
+            </div>
+        </li>
+    );
 }
 
 export default VideoListItem;
