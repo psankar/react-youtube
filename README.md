@@ -1,6 +1,6 @@
 # React Tutorial
 
-A simple react tutorial that makes creates a poor person's version of youtube
+A simple react tutorial that creates a poor person's version of youtube
 
 ```
 npm install
